@@ -1,0 +1,31 @@
+//largest among three numbers 
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("Enter the first number: ");
+    scanf("%d", &a);
+    printf("Enter the second number: ");
+    scanf("%d", &b);
+    printf("Enter the thrid number: ");
+    scanf("%d", &c);
+    if(a>b)
+    {
+        if(a>c)
+        printf("%d is the largest number\n", a);
+        else 
+        printf("%d is the largest number\n", c);
+    }
+    else if (b>c)
+    {
+        printf("%d is the largest number\n", b);
+    }
+    else 
+    {
+        printf("%d is the largest number\n", c);
+    }
+    return 0;
+}
+
