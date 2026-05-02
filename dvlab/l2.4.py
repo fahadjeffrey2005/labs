@@ -11,5 +11,5 @@ while i <len(words):
         freq[word] +=1
     else:
         freq[word] = 1
-    i =+ 1
+    i += 1
 print(freq)
